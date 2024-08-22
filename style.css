@@ -35,6 +35,55 @@ nav{
     padding: 12px 20px;
 }
 
+/* home  */
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+.home-heading{
+    padding: 40px 70px;
+    font-size: large;
+}
+.home-heading h1{
+    font-size: 45px;
+}
+h1 em{
+    font-size: 60px;
+    font-style: normal;
+}
+.home-heading p{
+    padding: 5px 0;
+}
+.home-heading button{
+    color: rgb(75, 38, 20);
+    border: 1px solid rgb(75,38,20);
+    background-color: transparent;
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.offer{
+    margin-top: -20px;
+    margin-left: -100px;
+}
+.offer img{
+    width: 400px;
+
+}
+.home img{
+    width: 400px;
+    margin-top: 20px;
+}
+.home-img{
+    position: relative;
+    animation: move 2s both;
+}
+@keyframes move{
+    from {right: 0px;}
+    to{right: 100px;}
+}
+
 /* for small screen devices  */
 @media(max-width : 1000px){
     #logo img{
